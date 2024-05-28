@@ -1,0 +1,93 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    background-image: url(../images/bg-repeat.jpg);
+    background-size: contain;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 100%;
+}
+
+.informacoes {
+    width: 300px;
+    height: 111px;
+    margin: 146px 100px 145px 50px;
+    color: #ffffff;
+}
+
+.informacoes .titulo{
+    font-weight: 900;
+        width: 115%;
+        padding-bottom: 11px;
+}
+
+.informacoes .ajuda{
+    font-weight: 400;
+    width: 101%;
+}
+
+.conteudo {
+    width: 340px;
+    height: 378px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.conteudo .item {
+    width: 298.01px;
+    height: 35.11px;
+    border-radius: 5px;
+    border: 1px solid;
+    margin: 3px 20px 3px 20px;
+}
+.conteudo .item:first-child{
+    margin-top: 10px;
+}
+
+.conteudo .textarea {
+    border-radius: 5px;
+    border: 1px solid;
+    margin: 4px 20px 5px 20px;
+}
+
+.instrucao{
+    margin-left: 20px;
+}
+
+.btn-enviar {
+    width: 298.01px;
+    height: 41.13px;
+    margin: 20px;
+    background: #3CCC87;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btn-enviar:hover{
+    background-color: #3CCC79;
+    color: gray;
+    transition: ease-in-out 0.3s;
+}
+ 
+.aviso{
+    margin-left: 20px;
+    color: red;
+    font-weight: 300;
+    font-size: 12px
+}
+
+.nao-mostrar{
+    opacity: 0;
+}
